@@ -32,7 +32,7 @@ class _LoginScreenState extends State<LoginScreen> {
               children: <Widget>[
                 Text('Instagram',
                   style: TextStyle(
-                      fontFamily:'GreateVibes-Regular',
+                      fontFamily:'Billabong',
                       fontSize: 50.0),
                 ),
                 Form(

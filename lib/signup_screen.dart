@@ -33,7 +33,7 @@ class _SignupScreenState extends State<SignupScreen> {
           children: <Widget>[
             Text('Instagram',
               style: TextStyle(
-                  fontFamily:'GreateVibes-Regular',
+                  fontFamily:'Billabong',
                   fontSize: 50.0),
             ),
             Form(
