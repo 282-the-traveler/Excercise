@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/signup_screen.dart';
 
 class LoginScreen extends StatefulWidget {
+
+  static final String id = 'login_screen';
+
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }
 
 class _LoginScreenState extends State<LoginScreen> {
   final _formKey = GlobalKey<FormState>();
-  String _email = '';
-  String _password = '';
+  String _email , _password;
 
   _submit() {
     if (_formKey.currentState.validate()) {
@@ -73,6 +76,22 @@ class _LoginScreenState extends State<LoginScreen> {
                           color: Colors.lightBlue,
                           child: Text(
                             'Login',
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize:18.0
+                            ),
+                          ),
+                        ),
+                      ),
+                      SizedBox(height: 20.0,),
+                      Container(
+                        padding: EdgeInsets.all(10.0),
+                        width: 250.0,
+                        child: FlatButton(
+                          onPressed: () => Navigator.pushNamed(context, SignupScreen.id),
+                          color: Colors.lightBlue,
+                          child: Text(
+                            'Sign Up',
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize:18.0
