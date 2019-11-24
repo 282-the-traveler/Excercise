@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "770664315753",
+    "firebase_url": "https://flutter-instagram-clone-507b5.firebaseio.com",
+    "project_id": "flutter-instagram-clone-507b5",
+    "storage_bucket": "flutter-instagram-clone-507b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770664315753:android:fe9c1668426f1531cb1bf8",
+        "android_client_info": {
+          "package_name": "com.a282thetraveler.instagramClone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770664315753-n2q0l1oilgvebm1kra5elroo2pusqikm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyZV55uUaPbynitSdywRvmJA0AsZlhRAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770664315753-n2q0l1oilgvebm1kra5elroo2pusqikm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "770664315753-rdukco7uut7fp545un9rtjuff36efu7j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.a282thetraveler.instagramClone"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770664315753:android:ad23919937491e56cb1bf8",
+        "android_client_info": {
+          "package_name": "com.a282thetraveler.instagram_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770664315753-n2q0l1oilgvebm1kra5elroo2pusqikm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyZV55uUaPbynitSdywRvmJA0AsZlhRAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770664315753-n2q0l1oilgvebm1kra5elroo2pusqikm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "770664315753-rdukco7uut7fp545un9rtjuff36efu7j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.a282thetraveler.instagramClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
